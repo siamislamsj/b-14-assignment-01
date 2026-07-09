@@ -1,3 +1,29 @@
-body{
-    background-color: aqua;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div img{
+    padding: 0 100px;
+    height: auto;
+}
+
+nav div ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #1D4ED8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8babf0;
 }
