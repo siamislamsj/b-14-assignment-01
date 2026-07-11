@@ -8,9 +8,140 @@ img {
   width: 100%;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #333;
-  line-height: 1.6;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
 }
 
+.logo {
+  width: 120px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
+}
+
+.reg {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  width: 750px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 100px;
+}
+
+.hero .reg {
+  margin-top: 150px;
+  padding: 16px 38px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.reg:hover {
+  background-color: #9cb5eb;
+}
+.speakers-parents {
+  padding: 80px 100px;
+}
+
+.speakers-parents h2 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.speakers-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.speakers-card {
+  width: 48%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.speakers-card img {
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.speakers-card h6 {
+  color: #2563eb;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 20px 20px 10px;
+}
+
+.speakers-card h3 {
+  font-size: 28px;
+  margin: 0 20px 10px;
+  color: #111827;
+}
+
+.speakers-card p {
+  margin: 0 20px 25px;
+  color: #6b7280c5;
+  font-size: 16px;
+}
+.price-parent {
+  padding: 80px 100px;
+}
+
+.price-parent h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.price-parent p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
