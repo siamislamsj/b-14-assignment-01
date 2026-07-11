@@ -65,62 +65,66 @@
     </section>
     <!-- Price -->
     <section class="price-parent">
-      <h2>Secure Your Spot</h2>
-      <p>Early-bird pricing ends August 15, 2026.</p>
-      <div class="price-card">
-        <h5>STANDARD</h5>
-        <h3>$399</h3>
-        <p>per person</p>
-        <hr />
-        <ul>
-          <li>Access to all 3 conference days</li>
-          <li>48 curated technical talks</li>
-          <li>2 workshop sessions</li>
-          <li>Networking lunch & coffee breaks</li>
-          <li>Conference swag bag</li>
-          <li>Digital recordings (30 days)</li>
-        </ul>
-        <button>Get Standard</button>
-      </div>
-      <div>
-        <h5>PRO</h5>
-        <h3>$749</h3>
-        <p>per person</p>
-        <hr />
-        <ul>
-          <li>Everything in Standard</li>
-          <li>Unlimited workshop access</li>
-          <li>Speaker meet & greet</li>
-          <li>VIP networking dinner</li>
-          <li>Lifetime recording access</li>
-          <li>1-on-1 mentorship (30 min)</li>
-        </ul>
-        <button>Get PRO</button>
-      </div>
-      <div>
-        <h5>TEAM</h5>
-        <h3>$5,999</h3>
-        <p>up to 10 people</p>
-        <hr />
-        <ul>
-          <li>Everything in Pro (10 seats)</li>
-          <li>Dedicated team lounge access</li>
-          <li>Private workshop booking</li>
-          <li>Company logo on event page</li>
-          <li>Recruitment booth (1 day)</li>
-          <li>Priority customer support</li>
-        </ul>
-        <button>Contact Us</button>
-      </div>
-    </section>
+    <h2>Secure Your Spot</h2>
+    <p class="price-subtitle">
+        Early-bird pricing ends August 15, 2026.
+    </p>
+    <div class="price-section">
+        <div class="price-card">
+            <h5>STANDARD</h5>
+            <h3>$399</h3>
+            <p>per person</p>
+            <hr>
+            <ul>
+                <li>Access to all 3 conference days</li>
+                <li>48 curated technical talks</li>
+                <li>2 workshop sessions</li>
+                <li>Networking lunch & coffee breaks</li>
+                <li>Conference swag bag</li>
+                <li>Digital recordings (30 days)</li>
+            </ul>
+            <button class="get-btn">Get Standard</button>
+        </div>
+        <div class="price-card pro-card">
+            <h5>PRO</h5>
+            <h3>$749</h3>
+            <p>per person</p>
+            <hr>
+            <ul>
+                <li>Everything in Standard</li>
+                <li>Unlimited workshop access</li>
+                <li>Speaker meet & greet</li>
+                <li>VIP networking dinner</li>
+                <li>Lifetime recording access</li>
+                <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+            <button>Get Pro</button>
+        </div>
+        <div class="price-card team-card">
+            <h5>TEAM</h5>
+            <h3>$5,999</h3>
+            <p>up to 10 people</p>
+            <hr>
+            <ul>
+                <li>Everything in Pro (10 seats)</li>
+                <li>Dedicated team lounge access</li>
+                <li>Private workshop booking</li>
+                <li>Company logo on event page</li>
+                <li>Recruitment booth (1 day)</li>
+                <li>Priority customer support</li>
+            </ul>
+            <button>Contact Us</button>
+        </div>
+    </div>
+</section>
     <!-- Sponsors -->
-    <section>
+    <section class="sponsor-parent">
       <h2>Our Sponsors</h2>
-      <p>
+      <p class="sponsor-text">
         Proudly supported by the world's leading technology companies.We thank
         our sponsors for their support of the conference.
       </p>
-      <div>
+      <div class="sponsor-section">
         <img src="./assets/google.jpg" alt="Google" />
         <img src="./assets/microsoft.png" alt="Microsoft" />
         <img src="./assets/github.png" alt="GitHub" />
@@ -129,13 +133,13 @@
       </div>
     </section>
     <!-- form -->
-    <section>
+    <section class="contact-parent">
       <h2>Have a Question?</h2>
-      <p>
+      <p class="contact-text">
         Have questions about registration, speakers, or workshops? Send us a
         message.
       </p>
-      <div>
+      <div class="contact-form">
         <input type="text" placeholder="Enter your Name" />
         <input type="email" placeholder="Enter your email" />
         <textarea placeholder="Message"></textarea>
@@ -143,20 +147,24 @@
       </div>
     </section>
     <!-- Footer -->
-    <footer>
-      <div>
-        <img src="./assets/logo.png" alt="DevConf 2026 Logo" />
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="./assets/footer-logo.png" alt="DevConf 2026 Logo" />
+        </div>
+        <div class="footer-right">
+          <div class="social-icons">
+            <img src="./assets/fb.jpg" alt="Facebook" />
+            <img src="./assets/instra.jpg" alt="Instagram" />
+            <img src="./assets/x.png" alt="X" />
+          </div>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <img src="./assets/fb.jpg" alt="facebook" />
-        <img src="./assets/instra.jpg" alt="instagram" />
-        <img src="./assets/x.png" alt="X" />
-        <ui>
-          <li>Privacy Policy</li>
-          <li>Terms of Service</li>
-        </ui>
-      </div>
-      <hr />
+      <hr>
       <p>© 2026 DevConf. All rights reserved.</p>
     </footer>
   </body>
