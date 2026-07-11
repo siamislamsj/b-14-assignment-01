@@ -214,16 +214,22 @@ nav ul li a {
 .price-card button {
   width: 100%;
   padding: 15px;
-  background: #2563eb;
-  color: white;
-  border: none;
+  background: none;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
 }
+.pro-card button{
+  background-color: #2563EB;
+  color: white;
+}
 
-.price-card button:hover {
-  background: #1d4ed8;
+.team-card button{
+  border: 2px solid black;
+  color: #0d1b2a;
 }
 .sponsor-parent {
   padding: 80px 100px;
